@@ -1,0 +1,5 @@
+@import './variables';
+
+@mixin boxShadow {
+  box-shadow: 0 5px 10px $color-shadow;
+}

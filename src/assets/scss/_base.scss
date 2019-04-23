@@ -1,0 +1,31 @@
+@import './variables';
+@import '~prismjs/themes/prism-tomorrow.css';
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono');
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $color-text-primary;
+}
+
+a {
+  &:hover {
+    color: $color-accent;
+  }
+}
+
+pre, pre[class*="language-"], code {
+  font-family: 'Fira Mono', monospace;
+  border-radius: 3px;
+}
